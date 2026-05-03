@@ -2,8 +2,9 @@
 setlocal
 
 set "SCRIPT_DIR=%~dp0"
-set "OUTPUT_DIR=%SCRIPT_DIR%..\..\..\msfs-data"
-set "OUTPUT_DB=%OUTPUT_DIR%\little_navmap_msfs24.sqlite"
+set "OUTPUT_DIR=%SCRIPT_DIR%..\..\..\msfs2024-data\msfs-efb-data"
+set "OUTPUT_DB=%OUTPUT_DIR%\efb_msfs24.sqlite"
+set "TEMP_DB=%OUTPUT_DIR%\efb_msfs24_compiling.sqlite"
 set "BASE_PATH=%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalState"
 set "SIMCONNECT_DLL=%SCRIPT_DIR%SimConnect.dll"
 
@@ -12,6 +13,7 @@ if not exist "%OUTPUT_DIR%" mkdir "%OUTPUT_DIR%"
 "%SCRIPT_DIR%navdbbuilder.exe" ^
   --simulator MSFS24 ^
   --output "%OUTPUT_DB%" ^
+  --temp "%TEMP_DB%" ^
   --basepath "%BASE_PATH%" ^
   --simconnect-dll "%SIMCONNECT_DLL%" ^
   --language en-US ^

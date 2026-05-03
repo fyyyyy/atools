@@ -73,6 +73,32 @@ void createEmptySchema(atools::sql::SqlDatabase& db)
   atools::fs::db::DatabaseMeta(&db).updateVersion();
 }
 
+void applyLittleNavmapDefaults(atools::fs::NavDatabaseOptions& opts)
+{
+  opts.setReadInactive(false);
+  opts.setVerbose(false);
+  opts.setResolveAirways(true);
+  opts.setLanguage(QStringLiteral("en-US"));
+  opts.setDatabaseReport(true);
+  opts.setDeletes(true);
+  opts.setDeduplicate(true);
+  opts.setFilterOutDummyRunways(true);
+  opts.setWriteIncompleteObjects(true);
+  opts.setAutocommit(false);
+  opts.setFlag(atools::fs::type::BASIC_VALIDATION, false);
+  opts.setFlag(atools::fs::type::AIRPORT_VALIDATION, false);
+  opts.setFlag(atools::fs::type::VACUUM_DATABASE, true);
+  opts.setFlag(atools::fs::type::ANALYZE_DATABASE, true);
+  opts.setFlag(atools::fs::type::DROP_INDEXES, false);
+  opts.setFlag(atools::fs::type::DROP_TEMP_TABLES, true);
+  opts.setSimConnectAirportFetchDelay(100);
+  opts.setSimConnectNavaidFetchDelay(50);
+  opts.setSimConnectBatchSize(2000);
+  opts.setSimConnectLoadDisconnected(true);
+  opts.setSimConnectLoadDisconnectedFile(true);
+  opts.excludeNavDbObjectTypes({QStringLiteral("TAXIWAYRUNWAY")});
+}
+
 bool progressCallback(const atools::fs::NavDatabaseProgress& progress)
 {
   static int lastPrinted = -1;
@@ -115,7 +141,7 @@ void addPathValues(const QStringList& values, void (atools::fs::NavDatabaseOptio
 QString defaultTempFile(const QString& outputFile)
 {
   const QFileInfo outputInfo(outputFile);
-  return outputInfo.absoluteDir().absoluteFilePath(QStringLiteral("little_navmap_compiling.sqlite"));
+  return outputInfo.absoluteDir().absoluteFilePath(outputInfo.completeBaseName() % QStringLiteral("_compiling.sqlite"));
 }
 
 void waitForExit()
@@ -244,6 +270,7 @@ int main(int argc, char *argv[])
     openDatabaseFile(db, tempFile);
 
     atools::fs::NavDatabaseOptions opts;
+    applyLittleNavmapDefaults(opts);
     opts.setSimulatorType(simulatorType);
 
     if(parser.isSet(configOpt))

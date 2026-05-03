@@ -360,6 +360,9 @@ if(ATOOLS_BUILD_NAVDBBUILDER)
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
             "${CMAKE_SOURCE_DIR}/tools/navdbbuilder/msfs2024.bat"
             "$<TARGET_FILE_DIR:navdbbuilder>/msfs2024.bat"
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "${CMAKE_SOURCE_DIR}/tools/navdbbuilder/export-msfs2024-json.bat"
+            "$<TARGET_FILE_DIR:navdbbuilder>/export-msfs2024-json.bat"
     )
 endif()
 

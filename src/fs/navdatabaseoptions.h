@@ -280,6 +280,11 @@ public:
     flags.setFlag(type::READ_ADDON_XML, value);
   }
 
+  void excludeNavDbObjectTypes(const QStringList& filters)
+  {
+    addToNavDbObjectFilterExclude(filters);
+  }
+
   typedef std::function<bool (const atools::fs::NavDatabaseProgress&)> ProgressCallbackType;
 
   const ProgressCallbackType& getProgressCallback() const
