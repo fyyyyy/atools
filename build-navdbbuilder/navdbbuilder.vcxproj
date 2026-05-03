@@ -124,7 +124,11 @@
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/msfs2024.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/Debug/msfs2024.bat"
 if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/navigraph.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/Debug/navigraph.bat"
+if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/export-msfs2024-json.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/Debug/export-msfs2024-json.bat"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/export-navigraph-json.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/Debug/export-navigraph-json.bat"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -188,7 +192,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/msfs2024.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/Release/msfs2024.bat"
 if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/navigraph.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/Release/navigraph.bat"
+if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/export-msfs2024-json.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/Release/export-msfs2024-json.bat"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/export-navigraph-json.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/Release/export-navigraph-json.bat"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -252,7 +260,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/msfs2024.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/MinSizeRel/msfs2024.bat"
 if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/navigraph.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/MinSizeRel/navigraph.bat"
+if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/export-msfs2024-json.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/MinSizeRel/export-msfs2024-json.bat"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/export-navigraph-json.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/MinSizeRel/export-navigraph-json.bat"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,7 +327,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/msfs2024.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/RelWithDebInfo/msfs2024.bat"
 if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/navigraph.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/RelWithDebInfo/navigraph.bat"
+if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/export-msfs2024-json.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/RelWithDebInfo/export-msfs2024-json.bat"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/tools/navdbbuilder/export-navigraph-json.bat" "C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/RelWithDebInfo/export-navigraph-json.bat"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
