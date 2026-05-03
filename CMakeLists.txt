@@ -72,6 +72,8 @@ option(ATOOLS_NO_WEB "Disable Web" OFF)
 option(ATOOLS_NO_WMM "Disable WMM" OFF)
 option(ATOOLS_NO_NAVSERVER "Disable Navserver" OFF)
 option(ATOOLS_NO_CRASHHANDLER "Disable Crashhandler" OFF)
+option(ATOOLS_BUILD_NAVDBBUILDER "Build command line scenery database builder" OFF)
+set(ATOOLS_SIMCONNECT_PATH_WIN64_MSFS_2024 "" CACHE PATH "Path to the MSFS 2024 SimConnect SDK")
 
 add_definitions(
     -DVERSION_NUMBER_ATOOLS=\"${VERSION_NUMBER}\"
@@ -264,25 +266,61 @@ file(GLOB_RECURSE SOURCES
         src/zlib/zutil.c
 )
 
+file(GLOB_RECURSE ATOOLS_EXTRA_HEADERS CONFIGURE_DEPENDS
+    src/fs/*.h
+    src/sql/*.h
+    src/timezone/*.h
+    src/wmm/*.h
+)
+file(GLOB_RECURSE ATOOLS_EXTRA_SOURCES CONFIGURE_DEPENDS
+    src/fs/*.cpp
+    src/sql/*.cpp
+    src/timezone/*.cpp
+    src/wmm/*.cpp
+    src/wmm/*.c
+)
+list(APPEND HEADERS src/util/xmlstreamreader.h src/util/xmlstreamwriter.h)
+list(APPEND SOURCES src/util/xmlstreamreader.cpp src/util/xmlstreamwriter.cpp)
+list(APPEND HEADERS ${ATOOLS_EXTRA_HEADERS})
+list(APPEND SOURCES ${ATOOLS_EXTRA_SOURCES})
+list(REMOVE_DUPLICATES HEADERS)
+list(REMOVE_DUPLICATES SOURCES)
+list(FILTER SOURCES EXCLUDE REGEX "src/fs/online/.*")
+list(FILTER HEADERS EXCLUDE REGEX "src/fs/online/.*")
+list(FILTER SOURCES EXCLUDE REGEX "src/timezone/database/builder/.*")
+list(FILTER HEADERS EXCLUDE REGEX "src/timezone/database/builder/.*")
+
 # ---- Remove sources/headers based on options ----
 if(ATOOLS_NO_GUI)
     list(FILTER SOURCES EXCLUDE REGEX "src/gui/.*|src/util/htmlbuilder.*|src/util/paintercontextsaver.*|src/util/polygontools.*|src/util/roundedpolygon.*")
     list(FILTER HEADERS EXCLUDE REGEX "src/gui/.*|src/util/htmlbuilder.*|src/util/paintercontextsaver.*|src/util/polygontools.*|src/util/roundedpolygon.*")
 endif()
+if(ATOOLS_NO_USERDATA)
+    list(FILTER SOURCES EXCLUDE REGEX "src/fs/userdata/.*")
+    list(FILTER HEADERS EXCLUDE REGEX "src/fs/userdata/.*")
+endif()
+if(ATOOLS_NO_WEATHER)
+    list(FILTER SOURCES EXCLUDE REGEX "src/fs/weather/.*")
+    list(FILTER HEADERS EXCLUDE REGEX "src/fs/weather/.*")
+endif()
 # Repeat for other options as needed...
 
 # ---- Resources ----
 qt_add_resources(ATOOLS_RESOURCES atools.qrc)
-# Add navdata.qrc if needed
+qt_add_resources(ATOOLS_NAVDATA_RESOURCES navdata.qrc)
 
 # ---- Library ----
-add_library(atools STATIC ${SOURCES} ${HEADERS} ${ATOOLS_RESOURCES})
+add_library(atools STATIC ${SOURCES} ${HEADERS} ${ATOOLS_RESOURCES} ${ATOOLS_NAVDATA_RESOURCES})
 
-target_include_directories(atools PUBLIC src)
+target_include_directories(atools PUBLIC src src/zlib)
 
 # ---- Compiler flags ----
-target_compile_features(atools PUBLIC cxx_std_14)
-target_compile_options(atools PRIVATE -Wall -Wextra -Wpedantic -Wno-pragmas -Wno-unknown-warning -Wno-unknown-warning-option)
+target_compile_features(atools PUBLIC cxx_std_20)
+if(MSVC)
+    target_compile_options(atools PRIVATE /W4 /permissive-)
+else()
+    target_compile_options(atools PRIVATE -Wall -Wextra -Wpedantic -Wno-pragmas -Wno-unknown-warning -Wno-unknown-warning-option)
+endif()
 
 # ---- Definitions ----
 target_compile_definitions(atools PRIVATE
@@ -290,6 +328,17 @@ target_compile_definitions(atools PRIVATE
     QT_NO_CAST_FROM_BYTEARRAY
     QT_NO_CAST_TO_ASCII
 )
+if(WIN32)
+    target_compile_definitions(atools PUBLIC WINARCH64 _USE_MATH_DEFINES NOMINMAX ZD_EXPORT=)
+    if(ATOOLS_SIMCONNECT_PATH_WIN64_MSFS_2024)
+        target_compile_definitions(atools PUBLIC SIMCONNECT_BUILD_WIN64)
+        target_include_directories(atools PUBLIC "${ATOOLS_SIMCONNECT_PATH_WIN64_MSFS_2024}/include")
+        target_link_libraries(atools "${ATOOLS_SIMCONNECT_PATH_WIN64_MSFS_2024}/lib/SimConnect.lib")
+    endif()
+endif()
+if(ATOOLS_NO_CRASHHANDLER OR MSVC)
+    target_compile_definitions(atools PRIVATE DISABLE_CRASHHANDLER)
+endif()
 
 # ---- Link Qt ----
 target_link_libraries(atools
@@ -301,6 +350,17 @@ target_link_libraries(atools
 )
 if(NOT ATOOLS_NO_GUI)
     target_link_libraries(atools Qt6::Widgets Qt6::Svg)
+endif()
+
+if(ATOOLS_BUILD_NAVDBBUILDER)
+    add_executable(navdbbuilder tools/navdbbuilder/main.cpp)
+    target_compile_features(navdbbuilder PRIVATE cxx_std_20)
+    target_link_libraries(navdbbuilder PRIVATE atools Qt6::Core Qt6::Sql)
+    add_custom_command(TARGET navdbbuilder POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "${CMAKE_SOURCE_DIR}/tools/navdbbuilder/msfs2024.bat"
+            "$<TARGET_FILE_DIR:navdbbuilder>/msfs2024.bat"
+    )
 endif()
 
 # ---- Install/Deploy ----

@@ -1,0 +1,34 @@
+Usage: C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\build-navdbbuilder\Release\navdbbuilder.exe [options]
+Build an atools/Little Navmap SQLite scenery database.
+
+Options:
+  -?, -h, --help                Displays help on commandline options.
+  --help-all                    Displays help including Qt specific options.
+  -v, --version                 Displays version information.
+  -o, --output <file>           Final SQLite database filename.
+  --temp <file>                 Temporary compile database filename. Defaults
+                                next to output.
+  -s, --simulator <type>        Simulator type, for example MSFS24, MSFS, XP12,
+                                NAVIGRAPH.
+  -b, --basepath <path>         Simulator base path.
+  --scenery-file <file>         Scenery.cfg or equivalent simulator scenery
+                                file.
+  -c, --config <file>           NavDatabaseOptions .ini/.cfg file.
+  --timezone-db <file>          Timezone database path.
+  --source-db <file>            Source database for Navigraph/DFD builds.
+  --msfs-community <path>       MSFS Community path.
+  --msfs-official <path>        MSFS Official/OneStore or Official/Steam path.
+  --include <path>              Extra include directory. Can be passed more
+                                than once.
+  --exclude <path>              Directory or file to exclude. Can be passed
+                                more than once.
+  --addon-exclude <path>        Directory to exclude from add-on detection. Can
+                                be passed more than once.
+  --simconnect-dll <file>       MSFS 2024 SimConnect loader DLL path or name.
+  --simconnect-manifest <file>  Optional Windows activation context manifest.
+  --language <locale>           MSFS language, for example en-US.
+  -f, --force                   Overwrite the final output database if it
+                                exists.
+  --schema-only                 Create only an empty schema.
+  --read-inactive               Read inactive scenery entries.
+  --read-addon-xml              Read add-on.xml entries.

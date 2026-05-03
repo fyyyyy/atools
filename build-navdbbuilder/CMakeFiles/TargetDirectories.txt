@@ -1,0 +1,6 @@
+C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/CMakeFiles/atools.dir
+C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/CMakeFiles/navdbbuilder.dir
+C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/CMakeFiles/deploy.dir
+C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/CMakeFiles/INSTALL.dir
+C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/CMakeFiles/ALL_BUILD.dir
+C:/MSFS 2024 SDK/Samples/DevmodeProjects/EFB/PackageSources/atools/build-navdbbuilder/CMakeFiles/ZERO_CHECK.dir

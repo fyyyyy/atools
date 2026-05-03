@@ -18,7 +18,9 @@
 #endif
 
 #include <stdio.h>
-#include <unistd.h>
+#if !defined(_WIN32)
+#  include <unistd.h>
+#endif
 #include "zlib.h"
 #ifdef STDC
 #  include <string.h>

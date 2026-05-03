@@ -16,7 +16,6 @@
 *****************************************************************************/
 
 #include "util/crashhandler.h"
-#include <unistd.h>
 
 #ifndef DISABLE_CRASHHANDLER
 
@@ -24,6 +23,9 @@
 
 extern "C"
 {
+#if !defined(Q_OS_WIN32)
+#include <unistd.h>
+#endif
 #include <signal.h>
 #include <stdlib.h>
 #include <fcntl.h>

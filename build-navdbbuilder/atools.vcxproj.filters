@@ -1,0 +1,1562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\atools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\gpx\gpxio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\gpx\gpxtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabaseflags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\connecthandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\datareaderthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectairport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectnav.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectaircraft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectdatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectdummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnecthandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectreply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnecttypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectuseraircraft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\weatherrequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\xpconnecthandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\aircraftindex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\coordinates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\fsutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\morsecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\tacanfrequencies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\calculations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\linestring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\point3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\pos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\spatialindex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\gui\consoleapplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\abstractinireader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\binarystream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\binaryutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\fileroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\inireader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\tempfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\loggingconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\loggingguiabort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\logginghandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\loggingutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\settings\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\average.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\contextsaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\crashhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\csvfilereader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\csvreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\filechecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\fileoperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\filesystemwatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\flags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\heap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\httpdownloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\locker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\props.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\signalhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\simplecrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\str.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\timedcache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\updatecheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\updatechecktypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\win\activationcontext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zip\gzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zip\zip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\xmlstreamreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\xmlstreamwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\airport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\approach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\approachleg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\approachtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\apron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\apron2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\com.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\del\deleteairport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\del\deletecom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\del\deleterunway.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\del\deletestart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\helipad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\jetway.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\parking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\rw\runway.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\rw\runwayapplights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\rw\runwayend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\rw\runwayvasi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\sidstar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\taxipath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\taxipoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\transition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\bglbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\bglfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\bglposition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\boundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\boundarysegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\airwaysegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\airwaywaypoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\dme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\glideslope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\ils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\ilsvor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\localizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\marker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\navbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\ndb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\tacan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\vor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\waypoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nl\namelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nl\namelistentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\record.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\recordtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\section.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\sectiontype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\subsection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\airportindex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\binarygeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\binarymsageometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\globereader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\magdecreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\metadatawriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\morareader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\procedurewriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\xpgeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\airwayresolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\airportfilewriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\airportwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\approachlegwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\approachwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\apronwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\comwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\deleteprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\helipadwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\legbasewriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\parkingwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\rw\runwayendwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\rw\runwaywriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\sidstarapproachlegwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\sidstartransitionlegwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\sidstartransitionwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\sidstarwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\startwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\taxipathwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\transitionlegwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\transitionwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\countryupdater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\databasemeta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\datawriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\meta\bglfilewriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\meta\sceneryareawriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\airwaysegmentwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\boundarywriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\ilswriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\markerwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\ndbwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\tacanwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\vorwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\waypointwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\runwayindex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\writerbasebasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\dfd\dfdcompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\fspaths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabaseerrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabaseoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabaseprogress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\ns\navserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\ns\navservercommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\ns\navserverworker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\perf\aircraftperf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\perf\aircraftperfconstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\perf\aircraftperfhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\pln\flightplan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\pln\flightplanconstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\pln\flightplanentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\pln\flightplanio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\progresshandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\addoncfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\addoncomponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\addonpackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\contentxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\fileresolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\languagejson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\layoutjson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\manifestjson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\materiallib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\sceneryarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\scenerycfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\airspacereaderbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\airspacereaderivao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\airspacereaderopenair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\airspacereadervatsim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\logdatamanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\userdatamanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\metar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\metarindex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\metarparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\noaaweatherdownloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\weatherdownloadbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\weathernetdownload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\weathertypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\xpweatherreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\scenerypacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairportmsareader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairportreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairspacereader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairwaypostprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairwayreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpcifpreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpconstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpdatacompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpfixreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpholdingreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpmorareader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpnavreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\datamanagerbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlcolumn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqldatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlexception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlexport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlquery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlrecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlscript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqltransaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\timezone\library\zonedetect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\timezone\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\timezone\timezonemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\wmm\GeomagnetismLibrary.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\wmm\magdectool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\build-navdbbuilder\qrc_atools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\build-navdbbuilder\qrc_navdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\atools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\gpx\gpxio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\gpx\gpxtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabaseflags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\connecthandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\datareaderthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectairport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectnav.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\db\simconnectwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectaircraft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectdatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectdummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnecthandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectreply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnecttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\simconnectuseraircraft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\weatherrequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\sc\xpconnecthandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\aircraftindex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\coordinates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\fsutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\morsecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\tacanfrequencies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\calculations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\linestring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\nanoflann.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\point3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\pos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\geo\spatialindex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\gui\consoleapplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\abstractinireader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\binarystream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\binaryutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\fileroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\inireader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\io\tempfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\json\nlohmann\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\loggingconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\loggingguiabort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\logginghandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\loggingtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\logging\loggingutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\settings\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\average.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\contextsaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\crashhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\csvfilereader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\csvreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\filechecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\fileoperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\filesystemwatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\httpdownloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\locker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\props.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\signalhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\simplecrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\str.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\timedcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\updatecheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\updatechecktypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\win\activationcontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zip\gzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zip\zipreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zip\zipwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\zlib\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\xmlstreamreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\util\xmlstreamwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\airport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\approach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\approachleg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\approachtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\apron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\apron2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\com.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\del\deleteairport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\del\deletecom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\del\deleterunway.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\del\deletestart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\helipad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\jetway.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\parking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\rw\runway.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\rw\runwayapplights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\rw\runwayend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\rw\runwayvasi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\sidstar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\start.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\taxipath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\taxipoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\ap\transition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\bglbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\bglfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\bglposition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\boundarysegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\airwaysegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\airwaywaypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\dme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\glideslope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\ils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\ilsvor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\localizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\marker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\navbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\ndb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\tacan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\vor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nav\waypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nl\namelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\nl\namelistentry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\record.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\recordtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\section.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\sectiontype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\subsection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\bgl\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\airportindex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\binarygeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\binarymsageometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\globereader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\magdecreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\metadatawriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\morareader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\procedurewriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\common\xpgeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\airwayresolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\airportfilewriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\airportwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\approachlegwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\approachwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\apronwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\comwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\deleteprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\helipadwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\legbasewriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\parkingwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\rw\runwayendwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\rw\runwaywriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\sidstarapproachlegwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\sidstartransitionlegwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\sidstartransitionwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\sidstarwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\startwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\taxipathwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\transitionlegwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\ap\transitionwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\countryupdater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\databasemeta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\datawriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\meta\bglfilewriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\meta\sceneryareawriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\airwaysegmentwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\boundarywriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\ilswriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\markerwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\ndbwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\tacanwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\vorwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\nav\waypointwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\runwayindex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\writerbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\db\writerbasebasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\dfd\dfdcompiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\fspaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabaseerrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabaseoptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\navdatabaseprogress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\ns\navserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\ns\navservercommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\ns\navserverworker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\perf\aircraftperf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\perf\aircraftperfconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\perf\aircraftperfhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\pln\flightplan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\pln\flightplanconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\pln\flightplanentry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\pln\flightplanio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\progresshandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\addoncfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\addoncomponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\addonpackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\contentxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\fileresolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\languagejson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\layoutjson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\manifestjson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\materiallib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\sceneryarea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\scenery\scenerycfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\airspacereaderbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\airspacereaderivao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\airspacereaderopenair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\airspacereadervatsim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\logdatamanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\userdata\userdatamanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\util\airportcoordtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\metar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\metarindex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\metarparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\noaaweatherdownloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\weatherdownloadbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\weathernetdownload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\weathertypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\weather\xpweatherreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\scenerypacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairportmsareader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairportreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairspacereader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairwaypostprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpairwayreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpcifpreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpdatacompiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpfixreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpholdingreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpmorareader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpnavreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\fs\xp\xpreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\datamanagerbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlcolumn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqldatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlexception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlquery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlrecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlscript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqltransaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqltypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\sql\sqlutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\timezone\library\zonedetect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\timezone\timezonemanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\wmm\GeomagnetismHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\src\wmm\magdectool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\atools.qrc" />
+    <CustomBuild Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\navdata.qrc" />
+    <CustomBuild Include="C:\MSFS 2024 SDK\Samples\DevmodeProjects\EFB\PackageSources\atools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{63F37E44-8E84-351C-BBFE-D8C0C16F078E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BA631AA0-52CE-3175-8567-0F674AFEB188}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

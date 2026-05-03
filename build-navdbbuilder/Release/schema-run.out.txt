@@ -1,0 +1,1 @@
+Created build-navdbbuilder/Release/schema-test-standalone.sqlite

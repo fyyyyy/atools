@@ -25,6 +25,7 @@
 .qtcreator/
 .~*#
 /*.log
+*.tlog
 /*.pro.user
 /Debug/
 /Release/
